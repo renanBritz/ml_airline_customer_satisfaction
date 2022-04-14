@@ -1,0 +1,21 @@
+# Setup the environment for producing the results in the paper
+name: ML_Analysis
+channels:
+    # Prioritize default packages from conda
+    - defaults
+    - conda-forge
+dependencies:
+    # List the dependencies here. It's good practice to specify the exact
+    # versions. Use 'conda list' to see your currently installed packages and
+    # their versions.
+    - python=3.8
+    - setuptools
+    - numpy
+    - pandas
+    - matplotlib
+    - jupyter
+    - jupyterlab
+    - scikit-learn
+    - plotly
+    - seaborn
+
